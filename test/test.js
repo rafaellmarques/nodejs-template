@@ -1,2 +1,2 @@
 const number = 2;
-console.log(number);
+console.log('numero: ' + number);
