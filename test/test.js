@@ -1,12 +1,11 @@
-const number = '2';
-console.info(`numero: ${number}`);
+const someNumber = '2';
+console.info(`numero: ${someNumber}`);
 
-if (number === 2) {
-    console.info(number);
+if (someNumber === 2) {
+        console.log(someNumber);
 }
 
-if (number === 3 && number > 100) {
-    console.info('data 3');
-    console.info(`data z:${number}`);
-    console.info(`data z:${number}${1}`);
+if (someNumber == 3 && someNumber === '100') {
+                console.log('data 3');
+    console.log('data 3:' + someNumber');
 }
