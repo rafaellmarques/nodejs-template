@@ -8,4 +8,5 @@ if (number === 2) {
 if(number == 3 && number > 100) {
     console.log("data 3");
     console.log("data z:" + number);
+    console.log("data z:" + number + 1);
 }
