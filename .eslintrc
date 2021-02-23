@@ -12,6 +12,7 @@
         "arrow-parens": "off",
         "eqeqeq": "error",
         "function-paren-newline": "off",
+        "import/prefer-default-export": "off",
         "indent": ["error", 4],
         "linebreak-style": [2, "unix"],
         "no-console": [
@@ -31,7 +32,6 @@
                 "allow": []
             }
         ],
-        "operator-linebreak": [2, "before", { "overrides": { "?": "after" } }],
-        "import/prefer-default-export": "off"
+        "operator-linebreak": [2, "before", { "overrides": { "?": "after" } }]
     }
 }

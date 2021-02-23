@@ -1,0 +1,21 @@
+{
+    "extends": ["accessibility", "development"],
+    "hints": {
+        "button-type": "error",
+        "compat-api/css": "error",
+        "compat-api/html": "error",
+        "css-prefix-order": "error",
+        "manifest-exists": "error",
+        "manifest-file-extension": "error",
+        "manifest-is-valid": "error",
+        "meta-charset-utf-8": "error",
+        "meta-viewport": "error",
+        "no-bom": "error",
+        "no-inline-styles": [
+            "warning",
+            {
+                "requireNoStyleElement": true
+            }
+        ]
+    }
+}
