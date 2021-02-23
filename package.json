@@ -13,7 +13,7 @@
         }
     },
     "lint-staged": {
-        "src/**/*.js": [
+        "test/**/*.js": [
             "npx pretty-quick --staged",
             "npx eslint --fix test --ext .js"
         ]
