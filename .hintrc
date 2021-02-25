@@ -1,9 +1,15 @@
 {
     "extends": ["accessibility", "development"],
+    "formatters": ["html", "summary"],
     "hints": {
         "button-type": "error",
         "compat-api/css": "error",
-        "compat-api/html": "error",
+        "compat-api/html": [
+            "error",
+            {
+                "ignore": ["meta[name=theme-color]"]
+            }
+        ],
         "css-prefix-order": "error",
         "manifest-exists": "error",
         "manifest-file-extension": "error",
@@ -17,5 +23,6 @@
                 "requireNoStyleElement": true
             }
         ]
-    }
+    },
+    "parsers": ["css", "html", "javascript"]
 }
